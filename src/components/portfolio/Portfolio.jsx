@@ -1,9 +1,9 @@
 import React from 'react';
-import IMG1 from '../../assets/bookstore.png';
-import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
+import IMG1 from '../../assets/mantra.png';
+import IMG2 from '../../assets/acm.png';
+import IMG3 from '../../assets/95.png';
+import IMG4 from '../../assets/loading.png';
+import IMG5 from '../../assets/garden.png';
 import IMG6 from '../../assets/math.png';
 
 import './portfolio.css';
@@ -12,63 +12,54 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Bookstore',
+      title: 'Mantra',
       img: IMG1,
       description:
-        'BookStore app that allows users to store books and update progress',
-      technologies: 'React | Redux | Ruby on Rails',
-      link: 'https://melodic-boba-111583.netlify.app/',
-      github: 'https://github.com/Meri-MG/bookstore---react',
+        'Google Chrome Extension that lets you make notes and see them instantly when you need them.',
+      technologies: 'React | Manifestv3 | Typescript | @editorjs | Mantine',
+      link: '',
+      github: 'https://github.com/SalihSaygi/Mantra',
     },
     {
       id: 2,
-      title: 'FakeStore',
-      img: IMG4,
+      title: 'ACM @ UC Merced Websit and Admin Backend ',
+      img: IMG2,
       description:
-        'FakeStore app that provides information about available products and their details',
-      technologies: 'React | Redux',
-      link: 'https://fakestore-metrics.netlify.app/',
-      github: 'https://github.com/Meri-MG/Fakestore---react',
+        "New website for ACM Chapter at UC Merced where you can see past, current, and future events that are automated using school's API, attend events and get points.",
+      technologies: 'React | Firebase | Formik | SASS | Yup',
+      link: 'https://acm-chapter-website.web.app/',
+      github: 'https://github.com/UCMercedACM/Chapter-Website',
     },
     {
       id: 3,
-      title: 'To-Do-App',
-      img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
+      title: 'Windows 95 eCommerce Shop',
+      img: IMG3,
+      description: 'eCommerce Shop with the aesthetic of using a windows 95 OS.',
+      technologies: 'React.js | @react95 | Formik | Firebase',
       link: 'https://meri-mg.github.io/To-Do-List/dist/',
       github: 'https://github.com/Meri-MG/To-Do-List',
     },
     {
       id: 4,
-      title: 'Shelter',
-      img: IMG3,
+      title: 'Clubstrap',
+      img: IMG4,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
+        'Platform to bootstrap your college club. Create and manage or discover many interesting clubs using the discovery page and customizable pages for every club.',
+      technologies: 'React.js | Editor.js | Yup | SASS | Firebse | Formik | Mantine.js | Y.js | Refine.js | Typescript | Passport.js | MongoDB | Express.js | JWT | Redis',
+      link: '',
+      github: 'https://github.com/SalihSaygi/ClubStrap',
     },
     {
       id: 5,
-      title: 'World News',
+      title: 'Dogegarden Site',
       img: IMG5,
       description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
+        'The frontend for the official DogeHouse.js bot & dashboard for DogeHouse.tv.',
+      technologies: 'React.js | Next.js | React-Query | Formik | Spotify API | Express.js | Passport.js | Redis | MongoDB | Bcrypt | JWT',
+      link: '',
+      github: 'https://github.com/dogegarden/gardener-site',
     },
-    {
-      id: 6,
-      title: 'Math Resource',
-      img: IMG6,
-      description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
-    },
+
   ];
 
   return (

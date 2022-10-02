@@ -20,15 +20,15 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 year</small>
+              <small>2 years of self-learning and 1.5 year of university</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>20+ Completed Projects</small>
+              <small>5+ Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
+          <p>Beginning from covid-19 quarantine, I learned HTML, CSS, and Javacript. To make actual web applications, I went ahead and learned Node.js with Express.js. To make more structured and larger web applications, I learned React.js and Redux. From my data structure and programming courses at university, I learned Python and C++. Outside of courses, I take part in our ACM Chapter at UC Merced to help other CSE students as the president of the club.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
